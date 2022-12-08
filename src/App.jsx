@@ -1,9 +1,18 @@
-function App() {
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Widgets from "./components/Widgets";
+import Register from "./components/Register";
+
+const App = () => {
   return (
     <div className="App">
-      <h1 className="text-3xl min-h-screen font-bold">Hello world!</h1>
+      <Navbar />
+      <Widgets />
+      <Hero />
+      <Register />
     </div>
   );
-}
+};
 
 export default App;
