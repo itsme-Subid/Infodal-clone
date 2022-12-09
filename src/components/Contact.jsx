@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="Contact grid grid-cols-2">
+    <div className="Contact grid lg:grid-cols-2 md:grid-cols-1">
       <div className="thumbnail p-4 text-white flex flex-col gap-4">
         <h2 className="my-2 text-3xl font-semibold relative before:content-[''] before:w-16 before:h-1.5 before:bg-primary before:absolute before:-bottom-4">
           Request a Demo from <span className="text-primary">Infodal</span>

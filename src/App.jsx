@@ -7,6 +7,7 @@ import Marquee from "./components/Marquee";
 import LiveCourse from "./components/LiveCourse";
 import VideoCourse from "./components/VideoCourse";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <LiveCourse />
       <VideoCourse />
       <Contact />
+      <Footer />
     </div>
   );
 };

@@ -36,7 +36,7 @@ const Register = () => {
             <h2 className="relative text-3xl font-bold text-primary before:content-[''] before:w-16 before:h-1.5 before:bg-primary before:absolute before:-bottom-4">
               Why chose Infodal?
             </h2>
-            <div className="points grid place-content-center grid-cols-3 my-4 gap-4">
+            <div className="points grid place-content-center lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 my-4 gap-4">
               <div className="point flex flex-col gap-4 bg-point-img h-72 bg-cover bg-center">
                 <FaMapMarkerAlt className="text-4xl text-primary" />
                 <h3 className="text-xl font-bold">
