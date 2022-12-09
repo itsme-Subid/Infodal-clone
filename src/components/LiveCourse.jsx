@@ -102,7 +102,7 @@ const LiveCourse = () => {
       </div>
       <div className="foot mx-auto w-fit">
         <button className="px-4 py-2 text-white bg-primary rounded shadow">
-          <a href="#">Explore All Live Courses</a>
+          <a href="/">Explore All Live Courses</a>
         </button>
       </div>
     </div>

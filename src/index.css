@@ -33,4 +33,34 @@
     line-clamp: 1;
     -webkit-box-orient: vertical;
   }
+  .Contact > .thumbnail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    background: no-repeat center center/cover;
+    background-image: linear-gradient(
+        -45deg,
+        rgb(0, 0, 0, 0.6),
+        rgb(0, 0, 0, 0.6)
+      ),
+      url("https://www.infodal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finstructor.2fe86e91.png&w=1920&q=75");
+  }
+  .Contact form input {
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.6);
+    background: transparent;
+    color: rgb(0, 0, 0, 0.6);
+    font-size: 0.8rem;
+    padding: 0.5rem 0;
+  }
+  .Contact form input:focus {
+    border-bottom: 2px solid #00b4d8;
+  }
+  .Contact form input:focus + label {
+    color: #00b4d8;
+    transform: translateY(-0.8rem);
+    font-size: 0.8rem;
+  }
 }

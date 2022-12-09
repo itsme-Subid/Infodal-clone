@@ -5,7 +5,8 @@ import Widgets from "./components/Widgets";
 import Register from "./components/Register";
 import Marquee from "./components/Marquee";
 import LiveCourse from "./components/LiveCourse";
-import VideoCourse from './components/VideoCourse';
+import VideoCourse from "./components/VideoCourse";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Marquee />
       <LiveCourse />
       <VideoCourse />
+      <Contact />
     </div>
   );
 };
