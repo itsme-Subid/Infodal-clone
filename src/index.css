@@ -63,4 +63,20 @@
     transform: translateY(-0.8rem);
     font-size: 0.8rem;
   }
+  .dropdown-button:hover > .dropdown {
+    display: flex;
+    flex-direction: column;
+  }
+  .dropdown li {
+    margin-block: 1.5rem;
+    text-align: left;
+  }
+  .Footer a {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+  .Footer a:hover {
+    text-decoration: underline;
+  }
 }

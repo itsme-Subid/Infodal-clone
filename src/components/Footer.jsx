@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-secondary">
+    <div className="Footer bg-secondary">
       <div className="row grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 text-white px-6 py-16 gap-4">
         <div className="col flex sm:justify-center">
           <img
@@ -11,7 +11,7 @@ const Footer = () => {
             alt="logo"
           />
         </div>
-        <div className="col font-semibold sm:text-center">
+        <div className="col font-semibold lg:text-left sm:text-center">
           <div className="col-header">
             <h2 className="text-xl mb-2">Company</h2>
           </div>
@@ -74,9 +74,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="col sm:text-center">
+        <div className="col lg:text-left sm:text-center">
           <div className="col-header">
-            <h2 className="text-xl mb-2">Trending Courses</h2>
+            <h2 className="text-xl mb-2 font-semibold">Trending Courses</h2>
           </div>
           <div className="col-body text-sm">
             <ul>
@@ -89,7 +89,7 @@ const Footer = () => {
         </div>
         <div className="col text-center">
           <div className="col-header">
-            <h2 className="text-xl mb-2">Reach Out to Us</h2>
+            <h2 className="text-xl mb-2 font-semibold">Reach Out to Us</h2>
           </div>
           <div className="col-body text-sm flex flex-col gap-4">
             <span>
