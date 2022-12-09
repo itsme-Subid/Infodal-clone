@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsChevronDown } from "react-icons/bs";
 
 const Navbar = () => {
+  const [currency, setCurrency] = useState("USD");
+  let handleClick = (e) => {
+    setCurrency(e.target.textContent.split(" ")[0]);
+  };
   return (
     <>
       <nav className="fixed top-0 left-0 right-0 z-10">
@@ -56,26 +60,38 @@ const Navbar = () => {
               Sign Up
             </button>
             <button className="dropdown-button relative uppercase border-2 border-primary px-4 my-2 rounded">
-              Select Currency - USD
+              Select Currency - {currency}
               <div className="dropdown hidden absolute top-12 left-0 h-fit p-4 text-sm font-normal bg-white rounded text-black/80 whitespace-normal shadow">
                 <ul className="text-center">
                   <li>
-                    <div className="w-full py-2 px-3 border-[1px] border-gray-300 hover:border-primary transition-colors text-center">
+                    <div
+                      className="w-full py-2 px-3 border-[1px] border-gray-300 hover:border-primary transition-colors text-center"
+                      onClick={handleClick}
+                    >
                       INR - Indian Rupees
                     </div>
                   </li>
                   <li>
-                    <div className="w-full py-2 px-3 border-[1px] border-gray-300 hover:border-primary transition-colors text-center">
+                    <div
+                      className="w-full py-2 px-3 border-[1px] border-gray-300 hover:border-primary transition-colors text-center"
+                      onClick={handleClick}
+                    >
                       USD - US Dollars
                     </div>
                   </li>
                   <li>
-                    <div className="w-full py-2 px-3 border-[1px] border-gray-300 hover:border-primary transition-colors text-center">
+                    <div
+                      className="w-full py-2 px-3 border-[1px] border-gray-300 hover:border-primary transition-colors text-center"
+                      onClick={handleClick}
+                    >
                       EUR - Euro
                     </div>
                   </li>
                   <li>
-                    <div className="w-full py-2 px-3 border-[1px] border-gray-300 hover:border-primary transition-colors text-center">
+                    <div
+                      className="w-full py-2 px-3 border-[1px] border-gray-300 hover:border-primary transition-colors text-center"
+                      onClick={handleClick}
+                    >
                       GBP - British Pound Sterling
                     </div>
                   </li>
