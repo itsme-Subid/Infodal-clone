@@ -142,7 +142,7 @@ const Course = ({ element }) => {
         <div className="wrapper">
           <div className="card-footer w-full bg-secondary rounded py-1.5 my-2 text-center mt-auto">
             <a
-              href="google.com"
+              href="github.com/itsme-subid"
               target="_blank"
               rel="noreferrer"
               className="card-button text-lg text-white"

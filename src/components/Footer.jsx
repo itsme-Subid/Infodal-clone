@@ -55,7 +55,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="http://instagram.com/itsme-subid"
+                  href="http://github.com/itsme-subid"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -64,7 +64,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="http://instagram.com/itsme-subid"
+                  href="http://github.com/itsme-subid"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
