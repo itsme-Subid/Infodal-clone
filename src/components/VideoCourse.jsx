@@ -143,7 +143,7 @@ const Course = ({ element }) => {
   return (
     <div className="card rounded bg-slate-100 shadow-md overflow-hidden">
       <div className="card-img-top w-full overflow-hidden relative">
-        <img src={src} alt="" />
+        <img src={src}/>
         <div className="bg-secondary flex text-white justify-center items-center w-fit absolute bottom-1 right-0 p-0.5 rounded">
           {star}
           <AiFillStar className="text-yellow-400" />
