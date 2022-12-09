@@ -12,7 +12,7 @@ const Navbar = () => {
               alt="logo"
             />
             <button className="dropdown-button relative transition-all text-white bg-primary md:w-auto rounded font-medium px-4 my-2 text-center flex items-center gap-2 uppercase">
-              <span>Explore</span>
+              <div>Explore</div>
               <BsChevronDown />
               <div className="dropdown hidden absolute top-12 left-0 h-fit p-4 text-sm font-normal bg-white rounded text-black/80 whitespace-nowrap shadow">
                 <ul>
@@ -57,27 +57,27 @@ const Navbar = () => {
             </button>
             <button className="dropdown-button relative uppercase border-2 border-primary px-4 my-2 rounded">
               Select Currency - USD
-              <div className="dropdown hidden absolute top-12 left-0 h-fit p-4 text-sm font-normal bg-white rounded text-black/80 whitespace-nowrap shadow">
+              <div className="dropdown hidden absolute top-12 left-0 h-fit p-4 text-sm font-normal bg-white rounded text-black/80 whitespace-normal shadow">
                 <ul className="text-center">
                   <li>
-                    <span className="w-full py-2 px-3 border-[1px] border-gray-300 hover:border-primary transition-colors">
+                    <div className="w-full py-2 px-3 border-[1px] border-gray-300 hover:border-primary transition-colors text-center">
                       INR - Indian Rupees
-                    </span>
+                    </div>
                   </li>
                   <li>
-                    <span className="w-full py-2 px-3 border-[1px] border-gray-300 hover:border-primary transition-colors">
+                    <div className="w-full py-2 px-3 border-[1px] border-gray-300 hover:border-primary transition-colors text-center">
                       USD - US Dollars
-                    </span>
+                    </div>
                   </li>
                   <li>
-                    <span className="w-full py-2 px-3 border-[1px] border-gray-300 hover:border-primary transition-colors">
+                    <div className="w-full py-2 px-3 border-[1px] border-gray-300 hover:border-primary transition-colors text-center">
                       EUR - Euro
-                    </span>
+                    </div>
                   </li>
                   <li>
-                    <span className="w-full py-2 px-3 border-[1px] border-gray-300 hover:border-primary transition-colors">
+                    <div className="w-full py-2 px-3 border-[1px] border-gray-300 hover:border-primary transition-colors text-center">
                       GBP - British Pound Sterling
-                    </span>
+                    </div>
                   </li>
                 </ul>
               </div>
