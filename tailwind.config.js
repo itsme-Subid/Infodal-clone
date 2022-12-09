@@ -16,6 +16,6 @@ module.exports = {
         'point-img': "url('https://www.infodal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwhy-bg.cc8b0e43.png&w=1080&q=75')",
       }
     },
-  },
-  plugins: [],
+    plugins: [],
+  }
 }
