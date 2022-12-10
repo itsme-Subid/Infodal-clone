@@ -8,22 +8,24 @@
   }
   .marquee-content {
     display: flex;
-    animation: scrolling 10s linear infinite;
+    animation: scrolling 60s linear infinite;
   }
   .marquee-element {
-    flex: 0 0 16vw;
-    margin: 0 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
   }
   .marquee-element img {
-    display: block;
-    width: 8rem;
+    min-width: 8rem;
+    min-height: 8rem;
   }
   @keyframes scrolling {
     0% {
-      transform: translateX(0);
+      transform: translateX(0%);
     }
     100% {
-      transform: translatex(-144vw);
+      transform: translatex(-1000%);
     }
   }
   .line-limit {
@@ -70,6 +72,12 @@
   .dropdown li {
     margin-block: 1.5rem;
     text-align: left;
+    transition: all 0.15s;
+  }
+  .dropdown li:hover {
+    color: rgb(0 0 0);
+    font-weight: 600;
+    letter-spacing: 0.075rem;
   }
   .Footer a {
     transition-property: all;
@@ -78,5 +86,8 @@
   }
   .Footer a:hover {
     text-decoration: underline;
+  }
+  .hamburger li{
+    margin-block: 1.5rem;
   }
 }
